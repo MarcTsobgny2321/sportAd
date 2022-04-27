@@ -2,13 +2,6 @@
 
 @section('content')
 
-    <script>
-        alert(
-            "PPage pour profil de redacteur,devenir recdacteur,et validation par admin et regarder tailler image like ward menu"
-        )
-    </script>
-
-
     <style>
         .demo-1 {
             overflow: hidden;
@@ -117,7 +110,7 @@
 
         {{-- articles --}}
 
-        <div class="row" id="postsList">
+        <div class="row" id="pos sList">
 
             @forelse ($posts as $post)
 

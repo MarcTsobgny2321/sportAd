@@ -16,7 +16,7 @@ class UserHasRegistedListener
      */
     public function __construct()
     {
-        //
+        //192.168.43.79
     }
 
     /**
@@ -35,7 +35,7 @@ class UserHasRegistedListener
         // Mail::to($event->user->email)->send(new WelcomeUserMail($event->user));
         Mail::to("marctsob2321@gmail.com")->send(new WelcomeUserMail($event->user));
         } catch (\Swift_TransportException $e) {
-            dd("send mail failed");
+            // dd("send mail failed");
             $e->getMessage();
         }
     }
